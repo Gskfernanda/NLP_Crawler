@@ -1,0 +1,9 @@
+para pegar os itens:
+
+In [9]: response.xpath("//i[@data-content='Min. project size']/following-sibling::span/text()").extract_first()      
+Out[9]: '$25,000+'
+
+
+In [2]: response.xpath('//h1/a/text()').extract_first()                                                       
+Out[2]: '\n                            Symphony Solutions\n 
+
